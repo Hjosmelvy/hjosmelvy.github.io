@@ -1,0 +1,161 @@
+#rainInch {}
+
+.raindrop {
+    position: absolute;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 10px;
+    height: 10px;
+    border: none;
+    -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+    border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: lightblue;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #02C0F8;
+    transform: rotateZ(-45deg);
+    top: 0px;
+    z-index: -1;
+}
+
+.snowflake {
+    border-radius: 10px;
+    background-color: white;
+    position: fixed;
+    display: block;
+    width: 3px;
+    height: 3px;
+    top: -15px;
+    z-index: -1;
+}
+
+#humidity {
+    padding-top: 0px;
+}
+
+#lastUpdate {
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background-color: #5C258D;
+    background: -webkit-gradient(to right, #4389A2, #5C258D);
+    background: -o-linear-gradient(to right, #4389A2, #5C258D);
+    background: -moz-linear-gradient(to right, #4389A2, #5C258D);
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
+    background: -ms-linear-gradient(to right, #4389A2, #5C258D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+    display: block;
+}
+
+#tempF {
+    margin: 2px;
+}
+
+#tempC {
+    margin: 0px;
+}
+
+#imgHolder {
+    display: inline-block;
+}
+
+#img {
+    margin: auto;
+    padding-top: 5px;
+    height: auto;
+    width: auto;
+}
+
+#realTempF {
+    font-size: 25px;
+    padding-left: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#realTempC {
+    font-size: 25px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+#displayWeather {
+    opacity: 1;
+    background-color: #c1c1f0;
+    border-width: 0px;
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 9001;
+}
+
+#button {
+    height: 51px;
+    border-width: 0px;
+    top: 0px;
+}
+
+#button:focus {
+    outline-width: 0px;
+}
+
+#searchbar {
+    opacity: 1;
+    background-color: #c1c1f0;
+    border-width: 0;
+    height: 99%;
+    font-size: 246%;
+    width: 100%;
+    color: black;
+    z-index: 9001;
+}
+
+#navbar {
+    opacity: 0.6;
+    background-color: gray;
+    padding: 10px;
+    z-index: 2;
+}
+
+::-webkit-selection {
+    background-color: black;
+    color: white;
+}
+
+::-moz-selection {
+    background-color: black;
+    color: white;
+}
+
+::selection {
+    background-color: Black;
+    color: white;
+}
+
+.h4,
+.h5,
+.h6,
+h4,
+h5,
+h6 {
+    /*margin-top: 10px;*/
+}
+
+#holder {
+    margin-top: 0px;
+}
+
+#smell {
+    margin-top: -5px;
+}
